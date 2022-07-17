@@ -1,0 +1,43 @@
+log:
+  name: 'id_inpainter'
+  which_iter: 'latest'
+  continue_train: True
+  log_dir: './log'
+  chkpt_dir: './chkpt'
+
+sampler:
+  chkpt_path: './sampler/Resnet50_70000_net.pth'
+  vector_size: 256
+
+
+model:
+  dataset_dir: './data/CelebA/celeba112'
+  valset_dir: './data/val'
+  normflag: True
+  learning_rate_E_G: 4e-4
+  learning_rate_D: 4e-4
+
+  beta1: 0
+  beta2: 0.999
+
+  batch_size: 16
+
+  num_workers: 8
+  grad_clip: 0.0
+  max_iter: 5000000
+  VERBOSE: True
+  LOG_INTERVAL: 1000
+  SAMPLE_INTERVAL: 2000
+  SAVE_INTERVAL: 10000
+  SAVE_LATEST_INTERVAL: 2000
+  SAMPLE_SIZE: 8
+
+# ca network parameters
+netG:
+  chkpt_path: './ca_inpainter/ckpt/gen_00700000.pt'
+  input_dim: 3
+  ngf: 32
+
+netD:
+  input_dim: 3
+  ndf: 32
