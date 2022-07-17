@@ -2,9 +2,8 @@
 # Recovery-based Occluded Face Recognition by Identity-guided Inpainting &mdash; Official PyTorch Implementation
 ![](./assets/fig3.png)
 
-![examples]
-(./output/result/result1.png) 
-(./output/result/result2.png)  
+![examples](./output/result/result1.png) 
+![](./output/result/result2.png)  
 
 
 Official Implementation of [Recovery-based Occluded Face Recognition by Identity-guided Inpainting] with [Pytorch-Lightning](https://github.com/PyTorchLightning/pytorch-lightning).
