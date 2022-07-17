@@ -23,7 +23,7 @@ import torch.backends.cudnn as cudnn
 
 cudnn.benchmark = True
 
-import lib.core.utils as utils
+#import lib.core.utils as utils
 from lib.core.config import config
 from lib.core.config import update_config
 
