@@ -2,7 +2,10 @@
 # Recovery-based Occluded Face Recognition by Identity-guided Inpainting &mdash; Official PyTorch Implementation
 ![](./assets/fig3.png)
 
-![issueBadge](https://github.com/icaoyu/ID-Inpainter)  
+![examples]
+(./output/result/result1.png) 
+(./output/result/result2.png)  
+
 
 Official Implementation of [Recovery-based Occluded Face Recognition by Identity-guided Inpainting] with [Pytorch-Lightning](https://github.com/PyTorchLightning/pytorch-lightning).
 In the paper,we propose \textbf{ID-Inpainter}, an identity-guided face inpainting model, which preserves the identity information to the greatest extent through a more accurate identity sampling strategy and a GAN-like fusing network.
